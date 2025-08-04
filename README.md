@@ -105,26 +105,6 @@ This lab simulates a basic enterprise network to practice log collection, monito
 - Configure alerts for malicious behavior in Splunk
 - Document detection techniques used in the lab
 
----
----
-
-## 📸 Screenshots
-
-### 🔧 Splunk Log Collection
-![Splunk Log Collection](Splunk log collection.png)
-
-### 🖥️ Event Sources
-![Event Sources](Events sources.png)
-
-### 🏢 Domain Controller Setup
-![Domain Controller Setup](Domain_Controller_setup.png)
-
-### 🧪 Test Machine Setup
-![Test Machine Setup](Test_Machine_setup.png)
-
-### 📄 Log Configuration (`inputs.conf`)
-![Log Configuration Inputs.conf](Log_configuration_inputs.conf.png)
-
 
 ---
 
@@ -133,6 +113,7 @@ This lab simulates a basic enterprise network to practice log collection, monito
 - NAT would limit communication between VMs across separate hosts unless extra routing is configured.
 
 
+📸 Screenshots are available in the repository file list above.
 
 
 ## 🧾 License
