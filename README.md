@@ -112,8 +112,42 @@ This lab simulates a basic enterprise network to practice log collection, monito
 - This lab uses **bridged mode** because I’m using **two physical machines**, and I want all VMs to behave like real networked devices.
 - NAT would limit communication between VMs across separate hosts unless extra routing is configured.
 
+## 📸 Screenshots
 
-📸 Screenshots are available in the repository file list above.
+### 🔧 Splunk Log Collection
+![Splunk Log Collection](splunk_log_collection.png)
+
+### 🖥️ Event Sources
+![Event Sources](events_sources.png)
+
+### 🏢 Domain Controller Setup
+![Domain Controller Setup](domain_controller_setup.png)
+
+### 🧪 Test Machine Setup
+![Test Machine Setup](test_machine_setup.png)
+
+### 📄 Log Configuration
+![Log Inputs Conf](log_inputs_conf.png)
+
+
+## 🧠 Reflections
+
+Working on this lab gave me practical insight into how different cybersecurity tools work together to detect and analyze threats.
+
+Here are a few key things I learned:
+
+- How **Sysmon** provides deep visibility into endpoint activity through detailed Windows logs
+- How the **Splunk Universal Forwarder** collects and sends those logs to a centralized **Splunk Enterprise** server
+- The importance of **bridged networking** for full communication across VMs on two separate physical hosts
+- Why **log tuning and configuration** is critical for reducing noise and focusing on high-value data
+
+I also gained appreciation for documentation and planning — breaking this down step-by-step helped me troubleshoot and explain the lab more effectively.
+
+This is still a lab in progress, and I plan to expand it with:
+- Domain-joining additional machines (e.g., Splunk server and Kali)
+- More realistic threat simulation scenarios
+- Alert creation and basic threat hunting workflows in Splunk
+
 
 
 ## 🧾 License
