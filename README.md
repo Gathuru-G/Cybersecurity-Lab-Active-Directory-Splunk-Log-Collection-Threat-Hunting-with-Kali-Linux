@@ -108,25 +108,22 @@ This lab simulates a basic enterprise network to practice log collection, monito
 ---
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots
 
 ### 🔧 Splunk Log Collection
-![Splunk Log Collection](images/Splunk_log_collection.png)
+![Splunk Log Collection](Splunk log collection.png)
 
 ### 🖥️ Event Sources
-![Event Sources](images/Events_sources.png)
+![Event Sources](Events sources.png)
 
 ### 🏢 Domain Controller Setup
-![Domain Controller Setup](images/Domain_Controller_setup.png)
+![Domain Controller Setup](Domain_Controller_setup.png)
 
 ### 🧪 Test Machine Setup
-![Test Machine Setup](images/Test_Machine_setup.png)
-
-### ⚙️ Input Configuration
-![Input Conf](images/Input_conf.png)
+![Test Machine Setup](Test_Machine_setup.png)
 
 ### 📄 Log Configuration (`inputs.conf`)
-![Log Configuration Inputs.conf](images/Log_configuration_inputs.conf.png)
+![Log Configuration Inputs.conf](Log_configuration_inputs.conf.png)
 
 
 ---
@@ -138,7 +135,21 @@ This lab simulates a basic enterprise network to practice log collection, monito
 
 
 
+## 🧾 License
 
+This project is licensed under the [MIT License](LICENSE).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+
+## 👨‍💻 About the Author
+
+I'm George Gathuru, a U.S. Army Veteran transitioning into cybersecurity and IT.  
+I’m passionate about hands-on learning and building practical home lab projects to reinforce skills in areas like Active Directory, log collection, threat detection, and VPN tunneling.
+
+This project is part of my journey toward a career in cybersecurity, and it reflects the real-world scenarios I’m actively learning and documenting.
+
+📫 [Connect with me on LinkedIn](https://www.linkedin.com/in/georgegathuru)
 
 
 
