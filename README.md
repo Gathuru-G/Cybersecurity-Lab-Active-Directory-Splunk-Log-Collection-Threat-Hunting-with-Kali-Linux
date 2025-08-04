@@ -113,25 +113,6 @@ This lab is currently **in progress**, and several key components are already wo
 
 ---
 
-## 📸 Screenshots
-
-### 🔧 Splunk Log Collection
-![Splunk Log Collection](splunk_log_collection.png)
-
-### 🖥️ Event Sources
-![Event Sources](events_sources.png)
-
-### 🏢 Domain Controller Setup
-![Domain Controller Setup](domain_controller_setup.png)
-
-### 🧪 Test Machine Setup
-![Test Machine Setup](test_machine_setup.png)
-
-### 📄 Log Configuration
-![Log Inputs Conf](log_inputs_conf.png)
-
----
-
 ## 🧾 Notes
 - This lab uses **bridged mode** because I’m using **two physical machines**, and I want all VMs to behave like real networked devices.
 - NAT would limit communication between VMs across separate hosts unless extra routing is configured.
