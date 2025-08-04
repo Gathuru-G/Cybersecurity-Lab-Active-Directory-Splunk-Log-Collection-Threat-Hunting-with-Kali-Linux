@@ -21,6 +21,28 @@ This lab simulates a basic enterprise network to practice log collection, monito
 - Multi-host virtual lab design  
 - Endpoint logging and SIEM fundamentals  
 
+## 📊 Project Status
+
+This lab is currently **in progress**, and several key components are already working:
+
+### ✅ Completed
+- Installed Windows Server 2022 and promoted it to Domain Controller
+- Installed and configured Sysmon on the target Windows machine
+- Installed Splunk Universal Forwarder and successfully forwarded logs
+- Deployed Splunk Enterprise Server and verified log ingestion
+- Viewed and analyzed logs via the Splunk web interface (`index=endpoint`)
+- Verified VM-to-VM communication using **bridged networking** across two physical machines
+
+### 🚧 In Progress
+- Joining Kali Linux and Splunk Server to the AD domain
+- Creating dashboards and basic detection queries in Splunk
+
+### 🔜 Planned
+- Deploying Wazuh for enhanced detection and alerting
+- Simulating attacks from Kali to test visibility and detection
+- Setting up alerts and documenting threat hunting playbooks
+- Password spray/brute force
+
 ---
 
 ## 🖥️ Lab Architecture
@@ -90,21 +112,23 @@ This lab simulates a basic enterprise network to practice log collection, monito
   - Set up dashboards or queries to search logs (e.g., Sysmon events)
 
 ---
-**Planned Next Steps**
-### Step 7: Use Kali Linux for Threat Simulation 
-- Simulate attacks like:
-  - Port scanning using `nmap`
-  - Password spray/brute force
-  - Scripted exploits for detection practice
 
----
+## 📸 Screenshots
 
-## 🔭 Planned Features (Next Steps)
-- Join Kali Linux and Splunk Server to the domain
-- Deploy Wazuh for advanced log analysis and alerts
-- Configure alerts for malicious behavior in Splunk
-- Document detection techniques used in the lab
+### 🔧 Splunk Log Collection
+![Splunk Log Collection](splunk_log_collection.png)
 
+### 🖥️ Event Sources
+![Event Sources](events_sources.png)
+
+### 🏢 Domain Controller Setup
+![Domain Controller Setup](domain_controller_setup.png)
+
+### 🧪 Test Machine Setup
+![Test Machine Setup](test_machine_setup.png)
+
+### 📄 Log Configuration
+![Log Inputs Conf](log_inputs_conf.png)
 
 ---
 
